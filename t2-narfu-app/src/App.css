@@ -179,7 +179,7 @@
 }
 
 .ann-date {
-  font-size: 11px;
+  font-size: 10px;
   color: #666;
   margin: 0;
 }
@@ -394,6 +394,11 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
+}
+
+.ass-meta span {
+  font-size: 10px;
+  color: #666;
 }
 
 .ass-info {
