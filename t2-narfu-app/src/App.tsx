@@ -4,15 +4,22 @@ import { motion, AnimatePresence } from 'framer-motion';
 import Dashboard from './components/Dashboard';
 import Timetable from './components/Timetable';
 import SakaiView from './components/SakaiView';
+import CourseDetail from './components/CourseDetail';
 import Profile from './components/Profile';
 import './App.css';
 
 function App() {
   const [activeTab, setActiveTab] = useState('home');
+  const [selectedCourseId, setSelectedCourseId] = useState<string | null>(null);
   const [notification, setNotification] = useState<{title: string, msg: string} | null>(null);
 
   const handleJoinSakai = (id: string) => {
+    setSelectedCourseId(id);
     setActiveTab('sakai');
+  };
+
+  const handleBackToCourses = () => {
+    setSelectedCourseId(null);
   };
 
   const triggerSimulation = () => {
@@ -30,7 +37,10 @@ function App() {
       case 'schedule':
         return <Timetable onJoinSakai={handleJoinSakai} />;
       case 'sakai':
-        return <SakaiView />;
+        if (selectedCourseId) {
+          return <CourseDetail courseId={selectedCourseId} onBack={handleBackToCourses} />;
+        }
+        return <SakaiView onSelectCourse={(id) => setSelectedCourseId(id)} />;
       case 'profile':
         return <Profile />;
       default:

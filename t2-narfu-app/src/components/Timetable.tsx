@@ -32,13 +32,15 @@ const Timetable = ({ onJoinSakai }: { onJoinSakai: (id: string) => void }) => {
               </div>
             </div>
 
-            <button 
-              className="sakai-join-btn"
-              onClick={() => onJoinSakai(lesson.sakaiId)}
-            >
-              <span>Открыть в Sakai</span>
-              <ExternalLink size={16} />
-            </button>
+            {lesson.sakaiId === 'practice-1024' && (
+              <button 
+                className="sakai-join-btn"
+                onClick={() => onJoinSakai(lesson.sakaiId)}
+              >
+                <span>Открыть в Sakai</span>
+                <ExternalLink size={16} />
+              </button>
+            )}
           </div>
         ))}
       </div>

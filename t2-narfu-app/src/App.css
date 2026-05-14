@@ -568,3 +568,150 @@
   border-radius: 8px;
   font-size: 12px;
 }
+
+/* Course Detail Styles */
+.course-detail-page {
+  padding-bottom: 20px;
+}
+
+.detail-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.back-btn {
+  background: none;
+  border: none;
+  color: white;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.detail-header h1 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.detail-header p {
+  font-size: 13px;
+  color: #888;
+  margin: 2px 0 0 0;
+}
+
+.detail-section {
+  margin-bottom: 25px;
+}
+
+.detail-section h3 {
+  font-size: 16px;
+  margin-bottom: 12px;
+  color: #ccc;
+}
+
+.course-desc {
+  font-size: 14px;
+  line-height: 1.5;
+  color: #bbb;
+}
+
+.resources-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.resource-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background-color: var(--t2-gray);
+  padding: 12px;
+  border-radius: 12px;
+}
+
+.res-info {
+  flex: 1;
+}
+
+.res-title {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.res-size {
+  font-size: 11px;
+  color: #666;
+  margin: 0;
+}
+
+.download-icon {
+  color: #666;
+}
+
+.detailed-assignments {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.det-ass-card {
+  background-color: var(--t2-gray);
+  padding: 15px;
+  border-radius: 12px;
+}
+
+.det-ass-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.det-ass-title {
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.status-badge {
+  font-size: 10px;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-weight: 700;
+}
+
+.status-badge.done {
+  background-color: #00ff8822;
+  color: #00ff88;
+}
+
+.status-badge.process {
+  background-color: #ffaa0022;
+  color: #ffaa00;
+}
+
+.det-ass-footer {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+  color: #666;
+}
+
+.open-browser-btn {
+  width: 100%;
+  margin-top: 10px;
+  background-color: transparent;
+  border: 1px solid #333;
+  color: #aaa;
+  padding: 12px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+}

@@ -95,3 +95,19 @@ export const mockAssignments = [
     status: "Сдано"
   }
 ];
+
+export const mockCourseDetails = {
+  "practice-1024": {
+    description: "Целью производственной практики является получение профессиональных умений и опыта профессиональной деятельности в области разработки и внедрения информационных систем.",
+    resources: [
+      { id: "r1", title: "Программа практики.pdf", type: "pdf", size: "2.4 MB" },
+      { id: "r2", title: "Шаблон отчета.docx", type: "doc", size: "450 KB" },
+      { id: "r3", title: "Дневник практики.pdf", type: "pdf", size: "1.1 MB" }
+    ],
+    detailedAssignments: [
+      { id: "da1", title: "Установочная конференция", status: "Сдано", dueDate: "01.05.2026" },
+      { id: "da2", title: "Промежуточный отчет №1", status: "Проверено", dueDate: "10.05.2026" },
+      { id: "da3", title: "Финальный отчет", status: "В процессе", dueDate: "30.06.2026" }
+    ]
+  }
+};

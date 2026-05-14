@@ -3,7 +3,7 @@ import { mockSakaiCourses, mockAssignments } from '../data/mockData';
 import { Book, CheckCircle, AlertCircle, Loader2 } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
-const SakaiView = () => {
+const SakaiView = ({ onSelectCourse }: { onSelectCourse: (id: string) => void }) => {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
@@ -38,7 +38,7 @@ const SakaiView = () => {
         <h3>Мои курсы</h3>
         <div className="courses-grid">
           {mockSakaiCourses.map(course => (
-            <div key={course.id} className="course-card">
+            <div key={course.id} className="course-card" onClick={() => onSelectCourse(course.id)}>
               <div className="course-icon">
                 <Book size={20} />
                 {course.unread > 0 && <span className="unread-dot">{course.unread}</span>}
