@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DEVELOPMENT_PLAN.md",
+                "file": "SOFTWARE_ARCHITECTURE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DEVELOPMENT_PLAN"
+              "title": "SOFTWARE_ARCHITECTURE"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DEVELOPMENT_PLAN.md",
+                "file": "SOFTWARE_ARCHITECTURE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for DEVELOPMENT_PLAN"
+              "title": "Backlinks for SOFTWARE_ARCHITECTURE"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DEVELOPMENT_PLAN.md",
+                "file": "SOFTWARE_ARCHITECTURE.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from DEVELOPMENT_PLAN"
+              "title": "Outgoing links from SOFTWARE_ARCHITECTURE"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DEVELOPMENT_PLAN.md",
+                "file": "SOFTWARE_ARCHITECTURE.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of DEVELOPMENT_PLAN"
+              "title": "Outline of SOFTWARE_ARCHITECTURE"
             }
           }
         ]
@@ -185,17 +185,31 @@
   },
   "active": "ac9519dfe748ef48",
   "lastOpenFiles": [
-    "t2-narfu-app/src/components/Profile.tsx",
-    "t2-narfu-app/src/components/SakaiView.tsx",
-    "t2-narfu-app/src/components/Timetable.tsx",
-    "t2-narfu-app/src/styles",
-    "t2-narfu-app/src/data/mockData.ts",
-    "t2-narfu-app/src/data",
-    "t2-narfu-app/src/hooks",
-    "t2-narfu-app/src/components/Dashboard.tsx",
-    "t2-narfu-app/src/components",
-    "t2-narfu-app/node_modules/lucide-react/dynamicIconImports.d.ts",
-    "t2-narfu-app/node_modules/lucide-react/dynamic.d.ts",
+    "tele2_project/t2-narfu-app/src/data/mockData.ts",
+    "tele2_project/t2-narfu-app/src/components/Timetable.tsx",
+    "tele2_project/t2-narfu-app/src/components/SakaiView.tsx",
+    "tele2_project/t2-narfu-app/src/components/Profile.tsx",
+    "tele2_project/t2-narfu-app/src/components/Dashboard.tsx",
+    "tele2_project/t2-narfu-app/src/components/CourseDetail.tsx",
+    "tele2_project/t2-narfu-app/src/assets/vite.svg",
+    "tele2_project/t2-narfu-app/src/assets/react.svg",
+    "tele2_project/t2-narfu-app/src/assets/hero.png",
+    "tele2_project/t2-narfu-app/src/styles",
+    "tele2_project/t2-narfu-app/src/main.tsx",
+    "tele2_project/t2-narfu-app/src/index.css",
+    "tele2_project/t2-narfu-app/src/hooks",
+    "tele2_project/t2-narfu-app/src/data",
+    "tele2_project/t2-narfu-app/public/icons.svg",
+    "tele2_project/t2-narfu-app/public/favicon.svg",
+    "tele2_project/t2-narfu-app/README.md",
+    "tele2_project/TZ.md",
+    "ARCHITECTURE_DIAGRAM.md",
+    "SOFTWARE_ARCHITECTURE.md",
+    "IMPLEMENTATION_DETAILS.md",
+    "COURSE_PARSING.md",
+    "DEVELOPMENT_PLAN.md",
+    "IMPROVEMENT_PLAN.md",
+    "FUTURE_ROADMAP.md",
     "t2-narfu-app/node_modules/lucide-react/README.md",
     "t2-narfu-app/node_modules/framer-motion/README.md",
     "t2-narfu-app/node_modules/framer-motion/dom/README.md",
@@ -212,15 +226,6 @@
     "t2-narfu-app/node_modules/rolldown/node_modules/@rolldown/pluginutils/README.md",
     "t2-narfu-app/node_modules/@eslint/js/README.md",
     "t2-narfu-app/node_modules/eslint/README.md",
-    "t2-narfu-app/node_modules/eslint-plugin-react-hooks/README.md",
-    "t2-narfu-app/node_modules/@typescript-eslint/typescript-estree/node_modules/semver/README.md",
-    "t2-narfu-app/node_modules/@typescript-eslint/eslint-plugin/node_modules/ignore/README.md",
-    "t2-narfu-app/node_modules/@types/react/README.md",
-    "t2-narfu-app/node_modules/@types/node/README.md",
-    "t2-narfu-app/node_modules/vite/README.md",
-    "t2-narfu-app/node_modules/vite/LICENSE.md",
-    "t2-narfu-app/node_modules/ajv/README.md",
-    "t2-narfu-app/node_modules/@vitejs/plugin-react/README.md",
     "t2-narfu-app/src/assets/vite.svg",
     "t2-narfu-app/src/assets/react.svg",
     "t2-narfu-app/src/assets/hero.png",
