@@ -396,9 +396,8 @@
   width: 100%;
 }
 
-.ass-meta span {
-  font-size: 11px;
-  color: #888;
+.ass-info {
+  flex: 1;
 }
 
 .status-tag {
@@ -406,6 +405,7 @@
   border-radius: 4px;
   font-size: 10px;
   font-weight: 700;
+  white-space: nowrap;
 }
 
 .status-tag.done { background-color: #00ff8822; color: #00ff88; }
